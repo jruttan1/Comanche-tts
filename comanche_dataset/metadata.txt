@@ -1,0 +1,2 @@
+audio1.wav|Comanche transcription 1
+audio2.wav|Comanche transcription 2
