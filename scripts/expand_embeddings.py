@@ -1,8 +1,9 @@
+import os
 import torch
 
-# Paths (case-sensitive!)
-pretrained_path = "/Users/jack/Library/Application Support/tts/tts_models--multilingual--multi-dataset--your_tts/model_file.pth"
-modified_path = "/Users/jack/Desktop/text_to_audio/modified_model_file.pth"
+# Paths (case-sensitive for macOS!)
+pretrained_path = "/Users/jack/Desktop/text_to_audio/model/model_file.pth"
+modified_path = "/Users/jack/Desktop/text_to_audio/model/modified_model_file.pth"
 
 # Load checkpoint
 checkpoint = torch.load(pretrained_path, map_location="cpu")
